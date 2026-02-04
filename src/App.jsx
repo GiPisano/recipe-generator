@@ -1,12 +1,11 @@
 import Header from "./components/Header"
+import Main from "./components/Main"
 
-function App() {
-
+export default function App() {
   return (
     <>
       <Header />
+      <Main />
     </>
   )
 }
-
-export default App
